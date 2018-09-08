@@ -19,12 +19,12 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   # Dependency Gems
-  spec.add_dependency "capistrano", "~> 3.8.1"
+  spec.add_dependency "capistrano"
   # spec.add_dependency "capistrano-rsync", "~> 1.0.2" # broken, wait update
-  spec.add_dependency "capistrano-rails", "~> 1.3.0"
+  spec.add_dependency "capistrano-rails"
   spec.add_development_dependency "capistrano-sidekiq", Capsum::CAPISTRANO_SIDEKIQ_REQUIREMENT # optional
 
-  # spec.add_dependency "capistrano-helpers", "~> 0.7.1"
+  # spec.add_dependency "capistrano-helpers"
   # spec.add_dependency "cap-recipes", "~> 0.3.36"
   # https://github.com/rubaidh/rubaidhstrano
   # https://github.com/relevance/cap_gun
